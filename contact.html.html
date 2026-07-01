@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contact BD Bridal Beauty Hub - Share your feedback, suggest new tools or ask about bridal beauty services in Bangladesh.">
+<title>Contact Us — BD Bridal Beauty Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--rose:#9b2d5a;--rose-light:#fdf0f5;--rose-pale:#fce8f1;--gold:#c9963a;--gold-pale:#fdf6e8;--border:#e8d5df;--text:#2d1b2e;--text2:#6b4c5e;--bg:#fdf5f8;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.7;}
+.site-header{background:linear-gradient(135deg,var(--rose) 0%,#c0416e 100%);padding:0 16px;}
+.header-inner{max-width:960px;margin:0 auto;height:56px;display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:'Playfair Display',serif;font-size:19px;font-weight:700;color:#fff;text-decoration:none;line-height:1.2;}
+.logo span{color:#f9d4a8;}
+.logo small{display:block;font-family:'Inter',sans-serif;font-size:10px;font-weight:400;color:rgba(255,255,255,.6);letter-spacing:1px;}
+.nav a{color:rgba(255,255,255,.7);text-decoration:none;font-size:13px;margin-left:14px;}
+.nav a:hover{color:#fff;}
+.main-wrap{max-width:600px;margin:0 auto;padding:32px 16px 60px;}
+.page-title{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--rose);margin-bottom:6px;}
+.page-sub{font-size:13.5px;color:var(--text2);margin-bottom:28px;padding-bottom:18px;border-bottom:2px solid var(--rose-pale);}
+.contact-card{background:#fff;border-radius:12px;padding:24px;margin-bottom:16px;box-shadow:0 1px 4px rgba(155,45,90,.08);}
+.contact-card h2{font-size:15px;font-weight:700;color:var(--rose);margin-bottom:14px;}
+.form-group{margin-bottom:14px;}
+.form-group label{display:block;font-size:11.5px;font-weight:700;color:var(--text2);margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px;}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:10px 13px;border:2px solid var(--border);border-radius:8px;font-size:14px;font-family:'Inter',sans-serif;background:#fff;color:var(--text);}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--rose);}
+.form-group textarea{height:130px;resize:vertical;}
+.btn-submit{width:100%;padding:13px;background:var(--rose);color:#fff;border:none;border-radius:8px;font-size:15px;font-weight:700;font-family:'Inter',sans-serif;cursor:pointer;}
+.btn-submit:hover{background:#c0416e;}
+.info-card{background:#fff;border-radius:12px;padding:20px 24px;margin-bottom:16px;box-shadow:0 1px 4px rgba(155,45,90,.08);}
+.info-card h3{font-size:14px;font-weight:700;color:var(--rose);margin-bottom:12px;}
+.info-row{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);font-size:13.5px;}
+.info-row:last-child{border-bottom:none;}
+.info-row .icon{font-size:18px;width:28px;text-align:center;margin-top:1px;}
+.info-row a{color:var(--rose);text-decoration:none;}
+.vendor-box{background:var(--gold-pale);border:1px solid #e8d5a0;border-radius:10px;padding:16px 18px;}
+.vendor-box h3{font-size:13.5px;font-weight:700;color:var(--gold);margin-bottom:8px;}
+.vendor-box p{font-size:13px;color:var(--text2);}
+.site-footer{background:var(--text);color:rgba(255,255,255,.5);text-align:center;padding:20px 16px;font-size:12px;}
+.site-footer a{color:rgba(255,255,255,.65);text-decoration:none;margin:0 10px;}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="index.html">BD Bridal<span> Beauty Hub</span><small>BANGLADESH'S BRIDAL BEAUTY TOOLS</small></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<div class="main-wrap">
+  <div class="page-title">Contact Us</div>
+  <div class="page-sub">Questions about our tools? Want to suggest a new calculator? We're here to help.</div>
+
+  <div class="contact-card">
+    <h2>Send Us a Message</h2>
+    <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="your@email.com" required>
+      </div>
+      <div class="form-group">
+        <label>I am a...</label>
+        <select name="user_type">
+          <option value="bride">Bride-to-be</option>
+          <option value="family">Family member of bride</option>
+          <option value="makeup_artist">Makeup Artist / Beautician</option>
+          <option value="photographer">Photographer / Videographer</option>
+          <option value="vendor">Wedding Vendor</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <select name="subject">
+          <option value="tool_suggestion">Suggest a New Tool</option>
+          <option value="error">Report an Error</option>
+          <option value="vendor_listing">Vendor Listing Enquiry</option>
+          <option value="feedback">General Feedback</option>
+          <option value="advertising">Advertising Enquiry</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea name="message" placeholder="Tell us your query, feedback or idea..." required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">💌 Send Message</button>
+    </form>
+  </div>
+
+  <div class="info-card">
+    <h3>Contact Information</h3>
+    <div class="info-row">
+      <span class="icon">📧</span>
+      <span>Email: <a href="mailto:bdbridalbeautyhub@gmail.com">bdbridalbeautyhub@gmail.com</a></span>
+    </div>
+    <div class="info-row">
+      <span class="icon">⏰</span>
+      <span>We respond within 48 hours</span>
+    </div>
+    <div class="info-row">
+      <span class="icon">💍</span>
+      <span>Serving brides across Dhaka, Chittagong, Sylhet, Rajshahi and all of Bangladesh</span>
+    </div>
+    <div class="info-row">
+      <span class="icon">🌐</span>
+      <span>All our tools are free — no registration needed</span>
+    </div>
+  </div>
+
+  <div class="vendor-box">
+    <h3>✨ Are You a Bridal Makeup Artist or Vendor?</h3>
+    <p>If you are a bridal makeup artist, photographer, or wedding services vendor in Bangladesh and would like to be featured on BD Bridal Beauty Hub, please email us at <strong>bdbridalbeautyhub@gmail.com</strong> with your portfolio and location. We are always looking to connect brides with quality local professionals.</p>
+  </div>
+</div>
+<footer class="site-footer">
+  <div style="margin-bottom:8px;">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  © 2026 BD Bridal Beauty Hub — Bangladesh's Free Bridal Beauty Tools
+</footer>
+</body>
+</html>
